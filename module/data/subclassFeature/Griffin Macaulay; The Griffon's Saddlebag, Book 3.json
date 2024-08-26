@@ -1,0 +1,48 @@
+{
+	"_meta": {
+		"version": "1.0.0",
+		"convertedBy": [
+			"Unknown"
+		],
+		"dateAdded": 1724703346,
+		"dateLastModified": 1724703346
+	},
+	"subclassFeature": [
+		{
+			"name": "Aura of Community",
+			"source": "GriffonsSaddlebag3",
+			"className": "Paladin",
+			"classSource": "PHB",
+			"subclassShortName": "Open Road",
+			"subclassSource": "GriffonsSaddlebag3",
+			"level": 7,
+			"effects": [
+				{
+					"name": "Aura of Community",
+					"transfer": true,
+					"changes": [
+						{
+							"key": "system.traits.languages.all",
+							"mode": "CUSTOM",
+							"value": ""
+						}
+					],
+					"flags": {
+						"ActiveAuras": {
+							"isAura": true,
+							"aura": "Allies",
+							"radius": "10",
+							"ignoreSelf": false,
+							"height": false,
+							"hidden": false,
+							"displayTemp": true,
+							"hostile": false,
+							"onlyOnce": false,
+							"wallsBlock": "system"
+						}
+					}
+				}
+			]
+		}
+	]
+}
